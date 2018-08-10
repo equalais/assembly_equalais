@@ -4,20 +4,20 @@
 
 ### Data prep
 
-* [Haar Cascades face detector](https://github.com/thommiano/assembly_melt/blob/master/notebooks/sandbox/extract_faces_test.ipynb)
-* [Haar Cascades face detector blur playground](https://github.com/thommiano/assembly_melt/blob/master/notebooks/sandbox/haar_cascades_blur.ipynb)
-* [Make cifar](https://github.com/thommiano/assembly_melt/blob/master/notebooks/sandbox/make_cifar-11.ipynb)
-* [Unpack cifar](https://github.com/thommiano/assembly_melt/blob/master/notebooks/sandbox/cifar-10_flatten.ipynb)
-* [Image cropping and scaling playground](https://github.com/thommiano/assembly_melt/blob/master/notebooks/data_prep/image%20cropping%20playground.ipynb)
+* [Haar Cascades face detector](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/extract_faces_test.ipynb)
+* [Haar Cascades face detector blur playground](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/haar_cascades_blur.ipynb)
+* [Make cifar](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/make_cifar-11.ipynb)
+* [Unpack cifar](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/cifar-10_flatten.ipynb)
+* [Image cropping and scaling playground](https://github.com/equalais/assembly_equalais/blob/master/notebooks/data_prep/image%20cropping%20playground.ipynb)
 
 ### Cleverhans introduction
 
-* [Whitebox FGSM attack with and without adversarial training](https://github.com/thommiano/assembly_melt/blob/master/notebooks/cleverhans_boilerplate/mnist_whitebox_fgsm_plus_adversarial_training.ipynb)
-* [Blackbox FGSM attack using a subsitution model trained with jacobian augmentation ](https://github.com/thommiano/assembly_melt/blob/master/notebooks/cleverhans_boilerplate/mnist_blackbox_substitution_fgsm.ipynb)
+* [Whitebox FGSM attack with and without adversarial training](https://github.com/equalais/assembly_equalais/blob/master/notebooks/cleverhans_boilerplate/mnist_whitebox_fgsm_plus_adversarial_training.ipynb)
+* [Blackbox FGSM attack using a subsitution model trained with jacobian augmentation ](https://github.com/equalais/assembly_equalais/blob/master/notebooks/cleverhans_boilerplate/mnist_blackbox_substitution_fgsm.ipynb)
 
 ### Detector evaluation
 
-* [Confusion matrix of the detectors over our dataset](https://github.com/thommiano/assembly_melt/blob/master/notebooks/evaluation/detector%20confusion%20matrix.ipynb)
+* [Confusion matrix of the detectors over our dataset](https://github.com/equalais/assembly_equalais/blob/master/notebooks/evaluation/detector%20confusion%20matrix.ipynb)
 
 ## Environments
 
@@ -106,7 +106,7 @@ To build this dataset execute the following script from the root of this reposit
 
 #### How we build the dataset
 
-![LFW-cropping-scaling](https://github.com/thommiano/assembly_melt/blob/master/utils/LFW_crop_scale.jpg)
+![LFW-cropping-scaling](https://github.com/equalais/assembly_equalais/blob/master/utils/LFW_crop_scale.jpg)
 
 We construct the dataset by cropping the border of every LFW image to naively remove black borders. Then, we scale each image to 32x32 to match the dimensions of the CIFAR-10 images.
 
