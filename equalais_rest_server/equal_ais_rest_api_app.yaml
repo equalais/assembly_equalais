@@ -1,0 +1,25 @@
+runtime: custom
+env: flex
+#entrypoint: gunicorn -b :$PORT main:app
+service: default
+#runtime_config:
+#  python_version: 3
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 1
+  disk_size_gb: 10
+#liveness_check:
+#  path: "/liveness_check"
+#  check_interval_sec: 30
+#  timeout_sec: 4
+#  failure_threshold: 2
+#  success_threshold: 2
+#readiness_check:
+#  path: "/readiness_check"
+#  check_interval_sec: 5
+#  timeout_sec: 4
+#  failure_threshold: 2
+#  success_threshold: 2
+#  app_start_timeout_sec: 1800

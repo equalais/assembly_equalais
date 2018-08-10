@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "assembly-melt",
+  "private_key_id": "3265e45c6462586b72f4a2528eed42f688bc54ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCm5KHbCCTibfCh\nZ7JINFIQbB4+LnijMPC0p/5MvZzyy7WxPeM2jv0XrFTOFKqcN9VCGsGNUhjDxpeR\njtPANPq9Cbh33Iz/9OsZyYLF5fEdDFMSOrOCs/A3B53Eq+nP5+W/cCDEIQ0nbusI\n/jGgWHMc3DtNmxWM5xiAR28FRgSTq1Tlp5U2HL8GMOfmKlqOSbkjtD2p03az4cR3\nUFWh3d4mkCjCZTwZIbxTxMmlRtMzIVaKBC+3Y3Wl+ghpr/UpIL7FkmFbkJ9+BaoY\nHWPAYSTiz3l8ncuOXZGNrKlEt58T8epecOtS2UTK6Ua5oKpDxCyBcyKFr3YO1rtG\n0D3edCU/AgMBAAECggEAIHzSKxaPQ4qeNHVApcCVlv/M9VLLhgzxVmF7ZcnlYvgX\nstx2vfiguPqBeapZOda+i0M1GUL5cibW+20/uCM4ChN51s9WnT66g0cQT2C/CmYL\nR7molxFa+gNgCVhjx+Z++UClCDjc3CfB1frRg0KkieIvIyDE1axovxPovzCNlIcN\nod+yflH2/OTuJykVWXGyVUZ+Dy56ehhyZXqOMKaXsZnHcDOHmMj+WRiU9SoAIJCa\n56XmVSnETnD9LXALw0JUo9f/A5yhnis0cCmJnjsXsqDSjeAN1cCjML0CJGM7i9Mb\n93AzR/EAEjwTFagNdOYrv4mHM9eJTBXYntxzATj5oQKBgQDQxdDE5omLrb3C1gEO\nu9OeEGDC4KLpyYCFq0WEzSQuw88vHdImSXuuRkKnyH/vyGURkgSC2IAjoGVwp+M2\nt3kHX2WGX/kZR1zgPGrXczKnTI2kimQyNN9PROIeYRdFN3unRsA4ZsnIenTYM5vf\nTH1IogpfX0EfleSXtsfITs6JIQKBgQDMpYlUP6IGDES6zvrsCJSC3FO0JJKDNju1\n+WdhNMnkW5cvhawuvNMIFMYbXaz8jJAnTiDtEpPeAJ447wP0BpkKKRHRh3vEe/kX\nz0bVtbl5NT6gpgo1HFIVWP2x3FMbGgX0DyYGKmlxrJudjhfA50qRxBKr8heqz160\njMVUOh0CXwKBgCWYmgH7aiWnQhcGJuaaWH+Mf4BYp73mNajcsQY7UxrA1FytyBxw\n+z7lFDfW2YM62UiSvRE7H8hKqDnjYf2GiNsVCNlsCxXMTiNrfeoSqrqKBK/u5CBO\neTBzPS0vWttyJGh5S0Bc8lWSB9yvXpCV27HqzGdkZfvkKGhR2CRwXK1BAoGAJDqB\n70o8krmFSVTvEu4J7Ii4wMFgtp3ZQEPgy1KfEzAruZv+eV+wNFQJJjsVLrhrpKmu\nJooNZ1XQrN+TYZXxbd0LbH6BqK0R0ec98QN0zEJizenXEMPsvB6++se4Zqnat/Qe\nlSTY+ejGu8O17M6FYvzFGW+IRRLk/y2UmW6YSB0CgYADCQhPI79vReixmMs4ukcY\nsjg04qDUVDVww5z/eNbi9q+AmJQW1SASloIJsgTamUNp4P5lM49lquMM8rpgrv7C\nx/6fStfigXWs9yd4LyXz380f0oa2ks6jsgr6FsZFla9luZTy+WFxikZMfku/DP0f\nro6GNLLEnRtxqk+7mHi3Jg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-service-account@assembly-melt.iam.gserviceaccount.com",
+  "client_id": "113435060645424423950",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-service-account%40assembly-melt.iam.gserviceaccount.com"
+}

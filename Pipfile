@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+tensorflow = "*"
+matplotlib = "*"
+keras = "*"
+ipython = "*"
+pillow = "*"
+ipykernel = "*"
+sklearn = "*"
+cleverhans = {git = "http://github.com/tensorflow/cleverhans.git"}
+jupyter = "*"
+pandas = "*"
+opencv-python = "*"
+scikit-image = "*"
+scipy = "*"
+dlib = "*"
+requests = "*"
+psutil = "*"
+"h5py" = "*"
+six = "*"
+clarifai = "*"
+flask = "*"
+gunicorn = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.5"

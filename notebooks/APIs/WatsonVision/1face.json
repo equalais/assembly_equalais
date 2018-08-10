@@ -1,0 +1,27 @@
+{
+  "images": [
+    {
+      "faces": [
+        {
+          "age": {
+            "min": 48,
+            "max": 51,
+            "score": 0.33139
+          },
+          "face_location": {
+            "height": 242,
+            "width": 235,
+            "left": 287,
+            "top": 178
+          },
+          "gender": {
+            "gender": "FEMALE",
+            "score": 0.9999975
+          }
+        }
+      ],
+      "image": "1face.jpg"
+    }
+  ],
+  "images_processed": 1
+}
