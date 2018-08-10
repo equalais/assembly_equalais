@@ -4,7 +4,7 @@
 
 ### Data prep
 
-* [Haar Cascades face detector](https://github.com/thommiano/assembly_melt/blob/master/notebooks/sandbox/extract_faces_test.ipynb)
+* [Haar Cascades face detector](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/extract_faces_test.ipynb)
 * [Haar Cascades face detector blur playground](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/haar_cascades_blur.ipynb)
 * [Make cifar](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/make_cifar-11.ipynb)
 * [Unpack cifar](https://github.com/equalais/assembly_equalais/blob/master/notebooks/sandbox/cifar-10_flatten.ipynb)
