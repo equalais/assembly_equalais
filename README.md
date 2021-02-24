@@ -1,5 +1,13 @@
 # Assembly equalAIs
 
+Please feel free to try out [our tool](http://equalais.media.mit.edu/) and give us feedback on how it works for you.
+
+An API for decoding the steganographic message is not yet available, but images that use equalAIs will have the following message:
+
+> I do not consent to use of face detection on this image or derivatives of this image.
+
+We hope to make the decoding API available soon!
+
 ## Notebooks to help this all make sense
 
 ### Data prep
@@ -84,3 +92,20 @@ To build this dataset execute the following script from the root of this reposit
 We construct the dataset by cropping the border of every LFW image to naively remove black borders. Then, we scale each image to 32x32 to match the dimensions of the CIFAR-10 images.
 
 Finally, we combine the two datasets, added an 11th "face" category to CIFAR-10, creating CIFAR-11. We randomly sample a holdout set from the face category so that the face category will match the other categories by having 6000 observations. The holdout set is also provided in `./data`.
+
+## 2018 Assembly Showcase
+
+The code for our model that we present in the 2018 Assembly Showcase is available in this notebook. For the presentation slides and citation, [please see here](http://doi.org/10.5281/zenodo.4558005).
+
+In a [Jupyter notebook](https://github.com/equalais/assembly_equalais/blob/master/notebooks/equalais_2018_assembly_showcase_train_evaluation.ipynb), we do the following:
+
+- Create an image attack using FGSM with a substitution model
+   - Train the substituion model
+      - Download and split the training data into train and dev
+      - Train the substitution model
+   - Wrap the FGSM attack around the substitution model
+- Visually demonstrate the effect of the attack on sample images
+- Evaluate the attack
+   - Against our trained substitution model
+   - Against local blackbox face detection models
+   - Against remote blockbox face detection APIs
