@@ -61,34 +61,7 @@ like `assembly_melt-zSdd0Kve`.
     1. When you start new notebooks, make sure you're using the `<environment-name>` kernel (this can always be
     changed in `Kernel -> Change Kernel`)
 
-## Building Datasets
-
-### Private Proof, Version 1
-
-[Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
- - 13233 images of faces
- - 5749 people
- - 1680 people with two or more images
- - 250x250 resolution
-
- Manually pulled images from Google search. Classes:
- - Architecture
- - Insect
- - Bag
- - Machinery
- - Font
- - Landscape
- - Ring
-
-Each of these classes have fewer than 1000 observations. Additionally, some of the images don't download properly (e.g., because they're not jpgs but are attempted to be downloaded as jpgs), so you'll need to filter these (e.g., try/exception loading).
-
-The above classes were selected based on overall consistency in Google search and that they tended to have few people (with faces shown) as compared to search results for other potential classes.
-
-To download a .zip of this dataset:
-https://drive.google.com/file/d/11oOYf9ff6e-Mn9-jXNG7GZsqzV5l0dZZ/view?usp=sharing
-
-To build this dataset execute the following script from the root of this repository:
-`. ./data_scripts/PRIVATE_PROOF_V1.sh`
+## Building Dataset
 
 ### CIFAR-11 (LFW+CIFAR), Version 1
 
