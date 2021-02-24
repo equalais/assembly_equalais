@@ -1,4 +1,4 @@
-# Assembly MELT
+# Assembly equalAIs
 
 ## Notebooks to help this all make sense
 
